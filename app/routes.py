@@ -29,6 +29,6 @@ def favoriteFive():
         ]
     return render_template("favoritefive.html", favorite=favorite)
 
-# @app.route('/login')
-# def loginPage():
-#     return render_template('login.html')
+@app.route('/login')
+def loginPage():
+    return render_template('login.html')
